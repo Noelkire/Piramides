@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct PiramidesApp: App {
+    let gameDeck = Deck()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PyramidView()
         }
     }
 }

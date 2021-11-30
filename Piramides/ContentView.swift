@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    let gameDeck = Deck()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Button(action: {
+                gameDeck.createDeck()
+            }) {
+                Text("Create Deck")
+            }
+            Button(action: {
+                gameDeck.shuffleDeck()
+            }) {
+                Text("Shuffle Deck")
+            }
+        }
     }
 }
 

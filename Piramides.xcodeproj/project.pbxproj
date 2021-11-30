@@ -11,6 +11,10 @@
 		500A418E26C101840006D629 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A418D26C101840006D629 /* ContentView.swift */; };
 		500A419026C101850006D629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500A418F26C101850006D629 /* Assets.xcassets */; };
 		500A419326C101850006D629 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500A419226C101850006D629 /* Preview Assets.xcassets */; };
+		500A419A26C101970006D629 /* CardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A419926C101970006D629 /* CardModels.swift */; };
+		500A419C26C108AA0006D629 /* GameSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A419B26C108AA0006D629 /* GameSetup.swift */; };
+		505A4DBE27500DED00418E4F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A4DBD27500DED00418E4F /* CardView.swift */; };
+		50A624752755A3A3009F4601 /* PyramidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A624742755A3A3009F4601 /* PyramidView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		500A418D26C101840006D629 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		500A418F26C101850006D629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		500A419226C101850006D629 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		500A419926C101970006D629 /* CardModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModels.swift; sourceTree = "<group>"; };
+		500A419B26C108AA0006D629 /* GameSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetup.swift; sourceTree = "<group>"; };
+		505A4DBD27500DED00418E4F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		50A624742755A3A3009F4601 /* PyramidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				500A418B26C101840006D629 /* PiramidesApp.swift */,
 				500A418D26C101840006D629 /* ContentView.swift */,
+				505A4DBD27500DED00418E4F /* CardView.swift */,
+				50A624742755A3A3009F4601 /* PyramidView.swift */,
+				500A419926C101970006D629 /* CardModels.swift */,
+				500A419B26C108AA0006D629 /* GameSetup.swift */,
 				500A418F26C101850006D629 /* Assets.xcassets */,
 				500A419126C101850006D629 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				500A418E26C101840006D629 /* ContentView.swift in Sources */,
+				500A419C26C108AA0006D629 /* GameSetup.swift in Sources */,
+				500A419A26C101970006D629 /* CardModels.swift in Sources */,
 				500A418C26C101840006D629 /* PiramidesApp.swift in Sources */,
+				505A4DBE27500DED00418E4F /* CardView.swift in Sources */,
+				50A624752755A3A3009F4601 /* PyramidView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +291,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -305,6 +322,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
