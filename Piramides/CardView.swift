@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CardView: View {
-    var value: String
+    var value: Int
     var suite: String
     var color: Color
     @State var flipped: Bool
@@ -31,7 +31,7 @@ struct CardView: View {
                 .foregroundColor(self.flipped ? .white : .blue)
                 .shadow(radius: 5)
             VStack{
-                Text(value)
+                Text(String(value))
                     .fontWeight(.bold)
                     .frame(maxWidth: .infinity, alignment: .trailing)
                 
@@ -40,7 +40,7 @@ struct CardView: View {
                     .resizable()
                     .frame(width: 10, height: 10)
                 Spacer()
-                Text(value)
+                Text(String(value))
                     .fontWeight(.bold)
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
@@ -59,6 +59,6 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(value: "4", suite: "suit.spade.fill",color: .black,flipped: true)
+        CardView(value: 5, suite: "suit.spade.fill",color: .black,flipped: true)
     }
 }
