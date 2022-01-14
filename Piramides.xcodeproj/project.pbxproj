@@ -15,6 +15,7 @@
 		500A419C26C108AA0006D629 /* GameSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A419B26C108AA0006D629 /* GameSetup.swift */; };
 		505A4DBE27500DED00418E4F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A4DBD27500DED00418E4F /* CardView.swift */; };
 		50A624752755A3A3009F4601 /* PyramidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A624742755A3A3009F4601 /* PyramidView.swift */; };
+		50AB9759278E20E9004CF821 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB9758278E20E9004CF821 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		500A419B26C108AA0006D629 /* GameSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetup.swift; sourceTree = "<group>"; };
 		505A4DBD27500DED00418E4F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		50A624742755A3A3009F4601 /* PyramidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidView.swift; sourceTree = "<group>"; };
+		50AB9758278E20E9004CF821 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				500A418B26C101840006D629 /* PiramidesApp.swift */,
 				500A418D26C101840006D629 /* ContentView.swift */,
 				505A4DBD27500DED00418E4F /* CardView.swift */,
+				50AB9758278E20E9004CF821 /* GameView.swift */,
 				50A624742755A3A3009F4601 /* PyramidView.swift */,
 				500A419926C101970006D629 /* CardModels.swift */,
 				500A419B26C108AA0006D629 /* GameSetup.swift */,
@@ -155,6 +158,7 @@
 				500A418C26C101840006D629 /* PiramidesApp.swift in Sources */,
 				505A4DBE27500DED00418E4F /* CardView.swift in Sources */,
 				50A624752755A3A3009F4601 /* PyramidView.swift in Sources */,
+				50AB9759278E20E9004CF821 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

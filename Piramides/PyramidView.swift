@@ -11,7 +11,7 @@ struct PyramidView: View {
     var deckOfCards = Deck()
     
     var body: some View {
-        VStack{
+        LazyVStack{
             HStack {
                 ZStack{
                     CardView(value: deckOfCards.cardDeck[27].value, suite: deckOfCards.cardDeck[27].suite,color: deckOfCards.cardDeck[27].color,flipped:deckOfCards.cardDeck[27].isFlipped)
@@ -60,7 +60,6 @@ struct PyramidView: View {
                     }
                 }
             }
-            
         }
     }
 }
