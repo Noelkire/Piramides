@@ -49,7 +49,7 @@ struct CardView: View {
             .animation(.default)
             .font(.body)
         }
-        .frame(width:55,height: 80)
+        .frame(width:40,height: 50)
         .onTapGesture {
             self.flipped.toggle()
             self.simpleHaptic(status: flipped)

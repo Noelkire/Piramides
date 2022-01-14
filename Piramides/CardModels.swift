@@ -1,4 +1,5 @@
 import SwiftUI
+
 enum Suites: String, CaseIterable {
     case spades = "suit.spade.fill"
     case clubs = "suit.club.fill"
